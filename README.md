@@ -35,3 +35,6 @@ In this project, you need to read data from a relational database (MySQL), save 
 
         
         * When the POST Succeed, the return code should be 201. Use the status_code method in requests to get the returned code. 
+
+    5) Use python project structure.
+    6) Use git repository to save your code. 
