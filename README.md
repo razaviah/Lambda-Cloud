@@ -23,3 +23,7 @@ In this project, you need to read data from a relational database (MySQL), save 
     4) Upload the file from EC2 to S3. The file should be in an ‘input’ folder in the S3 bucket. 
 
 5. When the file lands on the S3 bucket, a lambda is triggered. The lambda function will:
+    1) get the customer id list from the S3 ..json file;
+    2) query the customer names from the database based on the customer id list.
+    3) send a JSON data, including customer id , customer name and today’s date to an API endpoint. The API endpoint is: https://virtserver.swaggerhub.com/wcd_de_lab/top10/1.0.0/add
+    4) Here are some tips for the lambda function: 
