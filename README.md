@@ -21,3 +21,5 @@ In this project, you need to read data from a relational database (MySQL), save 
     2) Use the python script to bring the result from MySQL to EC2. The result includes the customer id and the sum of the customer salesof the top 10 customers.
     3) Save the result as a .json file locally in EC2.
     4) Upload the file from EC2 to S3. The file should be in an ‘input’ folder in the S3 bucket. 
+
+5. When the file lands on the S3 bucket, a lambda is triggered. The lambda function will:
