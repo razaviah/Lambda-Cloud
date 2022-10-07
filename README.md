@@ -27,3 +27,6 @@ In this project, you need to read data from a relational database (MySQL), save 
     2) query the customer names from the database based on the customer id list.
     3) send a JSON data, including customer id , customer name and today’s date to an API endpoint. The API endpoint is: https://virtserver.swaggerhub.com/wcd_de_lab/top10/1.0.0/add
     4) Here are some tips for the lambda function: 
+        * When you create a lambda function, you may need a lambda layer to install 3rd party libraries. This is an article about how to add a layer.([article](https://towardsdatascience.com/building-custom-layers-on-aws-lambda-35d17bd9abbb))
+        * Put the customer id, customer name and today’s date (format: ‘1990-01-01’) in a JSON structure variable, such as data. (But the variable is a string).
+        * Use POST to send data. Here is what the final API data looks like: 
