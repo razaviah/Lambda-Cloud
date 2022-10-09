@@ -38,3 +38,6 @@ In this project, you need to read data from a relational database (MySQL), save 
 
     5) Use python project structure.
     6) Use git repository to save your code. 
+
+
+## 3. Diagram
