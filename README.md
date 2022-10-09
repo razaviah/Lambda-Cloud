@@ -42,4 +42,5 @@ In this project, you need to read data from a relational database (MySQL), save 
 
 ## 3. Diagram
 The project diagram is below:
+
 ![lambda-lab2](https://user-images.githubusercontent.com/108837052/194732445-3ce4dfc7-846f-455a-b045-ece143b4302f.JPG)
