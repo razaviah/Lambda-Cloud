@@ -41,3 +41,4 @@ In this project, you need to read data from a relational database (MySQL), save 
 
 
 ## 3. Diagram
+The project diagram is below:
