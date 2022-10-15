@@ -9,7 +9,9 @@ Content developed by: WeCloudData Academy
 
 In this project, you need to read data from a relational database (MySQL), save the result to S3, and finally post your result to an API endpoint. Here is the general architecture:
 
-![architecture](https://user-images.githubusercontent.com/108837052/194605139-52a6fc33-4ee7-46dd-b5fc-21fa5bf92e6f.png)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/108837052/194605139-52a6fc33-4ee7-46dd-b5fc-21fa5bf92e6f.png" alt="architecture"/>
+</p>
 
 ## 2. Detail Steps
 
